@@ -79,5 +79,7 @@
           CV
         </a>
       </div>
+      <div class="navbar-end">
+      </div>
     </div>
   </nav>
