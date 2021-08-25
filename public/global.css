@@ -7,8 +7,12 @@ html, body {
 }
 
 body {
-	font-family: 'Oxygen';
+	font-family: 'Fira Sans';
 	color: #a8d1ce;
+}
+
+a{
+	color: #41bd6a
 }
   
 .tabs a.tab {
