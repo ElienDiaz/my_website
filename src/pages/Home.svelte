@@ -18,11 +18,17 @@
             </div>
             <div class="block has-text-justified is-size-7">
                 Hi! My name is Elie Diaz. I'm currently a PhD student at the
-                University of Utah, working on Computer Graphics. My first two
+                University of Utah, working on Computer Graphics. 
+            </div>
+            <div class="block has-text-justified is-size-7">
+                My first two
                 degrees (BS and MS) were from Georgia Tech in Computer Science,
                 so I have been learning more about the field for a few years
                 now. As far as my projects are concerned, I have done a decent
-                amount of work in simulation. Go ahead and explore my site to
+                amount of work in simulation. 
+            </div>
+            <div class="block has-text-justified is-size-7">
+                Go ahead and explore my site to
                 learn more about me!
             </div>
             <!-- <div class="block is-size-7">
@@ -48,12 +54,21 @@
             </div>
             <div class="block has-text-justified is-size-7">
                 I built this site using Svelte and Bulma as frameworks. With
-                these, I was able to split the site into several tabs. You'll
+                these, I was able to split the site into several tabs. 
+            </div>
+            <div class="block has-text-justified is-size-7">
+                You'll
                 find that project tab useful if you're interested in finding a
                 general overlook of the Computer Graphics projects I've worked
-                on and am working on. Another large part of my life revolves
+                on and am working on. 
+            </div>
+            <div class="block has-text-justified is-size-7">
+                Another large part of my life revolves
                 around music, so you can go to that tab to check out the various
-                music-related projects I'm able to share. Finally, that last CV tab
+                music-related projects I'm able to share. 
+            </div>
+            <div class="block has-text-justified is-size-7">
+                Finally, that last CV tab
                 should take you to a link to download a pdf of my most recent
                 version of my CV.
             </div>
