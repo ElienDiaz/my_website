@@ -11,10 +11,27 @@
 </script>
 
 <style>
-  .page-nav {
+  .navbar {
     background: hsl(125, 28%, 26%);
   }
-  ul.mobile-menu {
+
+  /* .navbar-menu {
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 0;
+    } */
+  
+  
+  .navbar-burger {
+    color: #a8d1ce
+  }
+
+  .navbar-item {
+    font-family: 'Fira Sans';
+	  color: #a8d1ce;
+    /* background:hsl(0, 100%, 50%) */
+  }
+  /* ul.mobile-menu {
     position: absolute;
     top: 15px;
     right: 30px;
@@ -31,80 +48,36 @@
     right: 0;
     z-index: 9;
     background: rgba(0, 0, 0, 0.25);
-  }
+  } */
 </style>
 
-<nav class="page-nav">
-  <div class="nav-container">
-    <div class="nav-logo">
-      <!-- <Link to={resumeRoute('work')}>Sam Mohr</Link> -->
-      Elie Diaz
+<!-- <nav class="page-nav"> -->
+  <nav class="navbar">
+    
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        Elie Diaz
+      </div>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-    <ul class="nav-links">
-      <li>
-        <!-- <Link
-          to={resumeRoute('work')}
-          className={$route.page === 'resume' ? 'active' : ''}>
-          Resume
-        </Link> -->
-        Home
-      </li>
-      <li>
-        <!-- <Link to={{ page: 'sudoku' }}>Sudoku</Link> -->
-        Projects
-      </li>
-      <li>
-        <!-- <Link
-          to={{ page: 'reviews' }}
-          className={$route.page === 'reviews' ? 'active' : ''}>
-          Reviews
-        </Link> -->
-        Music
-      </li>
-      <li>
-        <!-- <Link
-          to={{ page: 'recipes' }}
-          className={$route.page === 'recipes' ? 'active' : ''}>
-          Recipes
-        </Link> -->
-        CV
-      </li>
-    </ul>
-    <span class="mobile-menu-toggle" on:click={() => (menuOpen = !menuOpen)} />
-    {#if menuOpen}
-      <div class="mobile-menu-background" on:click={() => (menuOpen = false)} />
-    {/if}
-    <ul
-      class="mobile-menu menu"
-      style={`display: ${menuOpen ? 'block' : 'none'}`}>
-      <li>
-        <!-- <Link
-          to={resumeRoute('work')}
-          className={$route.page === 'resume' ? 'active' : ''}>
-          Resume
-        </Link> -->
-        Home
-      </li>
-      <li>
-        <!-- <Link to={{ page: 'sudoku' }}>Sudoku</Link> -->
-        Projects
-      </li>
-      <li>
-        <!-- <Link
-          to={{ page: 'reviews' }}
-          className={$route.page === 'reviews' ? 'active' : ''}>
-          Reviews
-        </Link> -->
-        Music
-      </li>
-      <li>
-        <!-- <Link
-          to={{ page: 'recipes' }}
-          className={$route.page === 'recipes' ? 'active' : ''}>
-          Recipes
-        </Link> -->
-        CV
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" >
+          Home
+        </a>
+        <a class="navbar-item">
+          Projects
+        </a>
+        <a class="navbar-item">
+          Music
+        </a>
+        <a class="navbar-item">
+          CV
+        </a>
+      </div>
+    </div>
+  </nav>
