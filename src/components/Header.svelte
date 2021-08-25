@@ -27,13 +27,13 @@
     </a>
   </div>
   <div id="navbarMenu" class="navbar-menu">
-    <div class="navbar-start">
+    <div class="navbar-start"/>
+    <div class="navbar-end">
       <a class="navbar-item"> Home </a>
       <a class="navbar-item"> Projects </a>
       <a class="navbar-item"> Music </a>
       <a class="navbar-item"> CV </a>
     </div>
-    <div class="navbar-end" />
   </div>
 </nav>
 

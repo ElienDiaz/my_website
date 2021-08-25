@@ -1,6 +1,6 @@
 <section class="section">
     <div class="block has-text-centered is-size-3">
-        <h1>Welcome to my page!</h1>
+        <h1>Welcome to My Website!</h1>
     </div>
     <div class="block is-flex is-horizontal-center">
         <figure class="image is-128x128">
@@ -25,7 +25,7 @@
                 degrees (BS and MS) were from Georgia Tech in Computer Science,
                 so I have been learning more about the field for a few years
                 now. As far as my projects are concerned, I have done a decent
-                amount of work in simulation. 
+                amount of work in physics simulation.
             </div>
             <div class="block has-text-justified is-size-7">
                 Go ahead and explore my site to
@@ -74,6 +74,9 @@
             </div>
         </div>
     </div>
+    
+</section>
+<section class="section">
     <div class="block has-text-centered is-size-5">Contact Me!</div>
     <div class="block has-text-centered">
         <p>
@@ -92,9 +95,6 @@
             >
         </p>
     </div>
-</section>
-<section class="section">
-    
 </section>
 
 <style>
