@@ -1,5 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
+  import { Link, link} from "svelte-routing";
+  import NavLink from "./NavLink.svelte";
   let menuOpen = false;
   //   import { resumeRoute, route } from "../route";
   //   import Link from "../components/Link.svelte";
@@ -8,31 +10,34 @@
   //     menuOpen = false;
   //   });
   //   onDestroy(unsubscribe);
+  let mobile;
+  const toggleNav = () => {
+    mobile = !mobile;
+  };
 </script>
 
-<!-- <nav class="page-nav"> -->
+
 <nav class="navbar">
   <div class="navbar-brand">
     <div class="navbar-item">Elie Diaz</div>
     <a
-      role="button"
       class="navbar-burger"
-      aria-label="menu"
-      aria-expanded="false"
-      data-target="navbarMenu"
+      class:is-active={mobile}
+      id="burger"
+      on:click={toggleNav}
     >
-      <span aria-hidden="true" />
-      <span aria-hidden="true" />
-      <span aria-hidden="true" />
+      <span />
+      <span />
+      <span />
     </a>
   </div>
-  <div id="navbarMenu" class="navbar-menu">
+  <div class="navbar-menu" class:is-active={mobile} class:special-back={mobile} id="menu">
     <div class="navbar-start"/>
     <div class="navbar-end">
-      <a class="navbar-item"> Home </a>
-      <a class="navbar-item"> Projects </a>
-      <a class="navbar-item"> Music </a>
-      <a class="navbar-item"> CV </a>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/">Projects</NavLink>
+      <NavLink to="/">Music</NavLink>
+      <NavLink to="/">CV</NavLink>
     </div>
   </div>
 </nav>
@@ -41,21 +46,22 @@
   .navbar {
     background: hsl(125, 28%, 26%);
   }
-
   /* .navbar-menu {
       display: flex;
       flex-grow: 1;
       flex-shrink: 0;
     } */
-
   .navbar-burger {
     color: #a8d1ce;
   }
-
   .navbar-item {
     font-family: "Fira Sans";
     color: #a8d1ce;
     /* background:hsl(0, 100%, 50%) */
+  }
+
+  .special-back {
+    background: rgb(100, 134, 103);
   }
   /* ul.mobile-menu {
     position: absolute;
