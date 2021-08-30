@@ -14,7 +14,7 @@
     <div class="block has-text-justified is-size-6">
         Throughout my studies, I have ended up working on several projects
         specializing in Computer Graphics and in Physics Simulations. Here are a
-        few I can share here.
+        few I can share.
     </div>
     <div class="block has-text-justified is-size-6">
         You can check out more projects from <a
@@ -31,7 +31,7 @@
 
     <div class="block">
         <div class="card is-size-6">
-            <div class="card-header">
+            <div class="card-header is-very-horizontal-center">
                 <figure class="image is-very-horizontal-center">
                     <img
                         src="./project_pictures/snow.gif"
@@ -50,7 +50,7 @@
                         >
                         that uses the material point method to simulate the physics
                         of snow. My contribution to this code included the effects
-                        of melting on the simulation. You can see how the warmer
+                        of temperature on the simulation. You can see how the warmer
                         air temperature melts the block of snow. Although the gif
                         appears to be in two dimensions, there are actually 3 dimensions
                         being simulated here. The z-dimension is much thinner than
@@ -63,7 +63,7 @@
 
     <div class="block">
         <div class="card is-size-6">
-            <div class="card-header">
+            <div class="card-header is-very-horizontal-center">
                 <figure class="image is-very-horizontal-center">
                     <img
                         src="./project_pictures/swarm.gif"
@@ -91,7 +91,7 @@
 
     <div class="block">
         <div class="card is-size-6">
-            <div class="card-header">
+            <div class="card-header is-very-horizontal-center">
                 <figure class="image is-very-horizontal-center">
                     <img
                         src="./project_pictures/jellies.gif"
