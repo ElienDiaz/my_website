@@ -1,0 +1,29 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #40627c;
+	
+}
+
+body {
+	font-family: 'Fira Sans';
+	color: #a8d1ce;
+}
+
+a{
+	color: #41bd6a
+}
+
+
+  
+.tabs a.tab {
+	padding: 8px 30px;
+}
+  
+@media (min-width: 500px) {
+	.tabs a.tab {
+	  padding: 8px 45px;
+	}  
+}
+
