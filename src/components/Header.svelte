@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
-  import { Link, link} from "svelte-routing";
+  import { Link, link } from "svelte-routing";
   import NavLink from "./NavLink.svelte";
   let menuOpen = false;
   //   import { resumeRoute, route } from "../route";
@@ -14,12 +14,22 @@
   const toggleNav = () => {
     mobile = !mobile;
   };
-</script>
 
+  const turnOffOverlay = () => {
+    mobile = false;
+  };
+</script>
 
 <nav class="navbar">
   <div class="navbar-brand">
-    <div class="navbar-item">Elie Diaz</div>
+    <div class="navbar-item">
+      <Link
+        class="navbar-item"
+        style="color: #a8d1ce"
+        on:click={turnOffOverlay}
+        to="/">Elie Diaz</Link
+      >
+    </div>
     <a
       class="navbar-burger"
       class:is-active={mobile}
@@ -31,13 +41,42 @@
       <span />
     </a>
   </div>
-  <div class="navbar-menu" class:is-active={mobile} class:special-back={mobile} id="menu">
-    <div class="navbar-start"/>
+  <div
+    class="navbar-menu"
+    class:is-active={mobile}
+    class:special-back={mobile}
+    id="menu"
+  >
+    <div class="navbar-start" />
     <div class="navbar-end">
-      <NavLink to="/">Home</NavLink>
+      <Link
+        class="navbar-item"
+        style="color: #a8d1ce"
+        on:click={turnOffOverlay}
+        to="Home">Home</Link
+      >
+      <Link
+        class="navbar-item"
+        style="color: #a8d1ce"
+        on:click={turnOffOverlay}
+        to="Projects">Projects</Link
+      >
+      <Link
+        class="navbar-item"
+        style="color: #a8d1ce"
+        on:click={turnOffOverlay}
+        to="Music">Music</Link
+      >
+      <Link
+        class="navbar-item"
+        style="color: #a8d1ce"
+        on:click={turnOffOverlay}
+        to="CV">CV</Link
+      >
+      <!-- <NavLink to="/">Home</NavLink>
       <NavLink to="/">Projects</NavLink>
       <NavLink to="/">Music</NavLink>
-      <NavLink to="/">CV</NavLink>
+      <NavLink to="/">CV</NavLink> -->
     </div>
   </div>
 </nav>

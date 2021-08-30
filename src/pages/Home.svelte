@@ -1,3 +1,7 @@
+<script>
+    import { Link } from "svelte-routing";
+</script>
+
 <section class="section">
     <div class="block has-text-centered is-size-3">
         <h1>Welcome to my Website!</h1>
@@ -56,17 +60,17 @@
                 these, I was able to split the site into several tabs.
             </div>
             <div class="block has-text-justified is-size-7">
-                You'll find that project tab useful if you're interested in
-                finding a general overlook of the Computer Graphics projects
-                I've worked on and am working on.
+                You'll find that <Link to="Projects">project tab</Link> useful if
+                you're interested in finding a general overlook of the Computer Graphics
+                projects I've worked on and am working on.
             </div>
             <div class="block has-text-justified is-size-7">
                 Another large part of my life revolves around music, so you can
-                go to that tab to check out the various music-related projects
-                I'm able to share.
+                go to <Link to="Music">that tab</Link> to check out the various music-related
+                projects I'm able to share.
             </div>
             <div class="block has-text-justified is-size-7">
-                Finally, that last CV tab should take you to a link to download
+                Finally, that last <Link to="CV">CV tab</Link> should take you to a link to download
                 a pdf of my most recent version of my CV.
             </div>
         </div>
@@ -80,7 +84,7 @@
             <a href="mailto:eliericardo@hotmail.com">eliericardo@hotmail.com</a>
             <br />
             Find me on
-            <a href="www.linkedin.com/in/eliediaz">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/eliediaz">LinkedIn</a>
             <br />
             Check out my
             <a href="https://github.com/eliendiaz">GitHub</a>

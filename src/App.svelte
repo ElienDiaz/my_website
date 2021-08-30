@@ -14,11 +14,10 @@
 
 <main>
 	<Router {url}>
-		<Header />
-		<Route path="Projects" component={Projects} />
-		<Route path="Music" component={Music} />
-		<Route path="CV" component={CV} />
-		<Route path="Home" component={Home} />
-		<Route path="/" component={Home} />
+		<Route path="Projects"><Header /><Projects /></Route>
+		<Route path="Music"><Header /><Music /></Route>
+		<Route path="CV"><Header /><CV /></Route>
+		<Route path="Home"><Header /><Home /></Route>
+		<Route path="/"><Header /><Home /></Route>
 	</Router>
 </main>
