@@ -6,7 +6,7 @@
         <figure class="image is-very-horizontal-center is-128x128">
             <img
                 src="./Profile_Pic.jpg"
-                alt="My current profile picture"
+                alt="My face with glasses on"
                 title="Thanks for checking out my website!"
             />
         </figure>
@@ -16,7 +16,7 @@
         in pdf format, in case you want a more complete list of my experience.
     </div>
     <div class="block has-text-justified is-size-6">
-        <a href="./Diaz_Elie_CV.pdf" download="Diaz_Elie_CV">This CV</a>
+        <a href="./Diaz_Elie_CV.pdf" target="_blank">This CV</a>
         is updated as of January 2021.
     </div>
 </section>
