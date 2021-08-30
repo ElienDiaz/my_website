@@ -20,7 +20,7 @@
   };
 </script>
 
-<nav class="navbar">
+<nav class="navbar is-size-5">
   <div class="navbar-brand">
     <div class="navbar-item">
       <Link
@@ -31,7 +31,7 @@
       >
     </div>
     <a
-      class="navbar-burger"
+      class="navbar-burger burger"
       class:is-active={mobile}
       id="burger"
       on:click={toggleNav}

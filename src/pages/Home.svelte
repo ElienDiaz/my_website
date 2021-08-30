@@ -3,14 +3,14 @@
 </script>
 
 <section class="section">
-    <div class="block has-text-centered is-size-3">
+    <div class="block has-text-centered is-size-2">
         <h1>Welcome to my Website!</h1>
     </div>
     <div class="block is-flex is-horizontal-center">
         <figure class="image is-128x128">
             <img
                 class="is-rounded"
-                src="./melodica.jpg"
+                src="./home_pictures/melodica.jpg"
                 alt="Here's me being silly and playing my Melodica"
                 title="That instrument I'm playing is called a Melodica! It's so fun to play."
             />
@@ -18,20 +18,21 @@
     </div>
     <div class="columns">
         <div class="column">
-            <div class="block has-text-centered is-size-5">
+            
+            <div class="block has-text-centered is-size-4">
                 <h1>About Me!</h1>
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 Hi! My name is Elie Diaz. I'm currently a PhD student at the
                 University of Utah, working on Computer Graphics.
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 My first two degrees (BS and MS) were from Georgia Tech in
                 Computer Science, so I have been learning more about the field
                 for a few years now. As far as my projects are concerned, I have
                 done a decent amount of work in physics simulation.
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 Go ahead and explore my site to learn more about me!
             </div>
             <!-- <div class="block is-size-7">
@@ -52,24 +53,24 @@
             </div> -->
         </div>
         <div class="column">
-            <div class="block has-text-centered is-size-5">
+            <div class="block has-text-centered is-size-4">
                 <h1>About my Website!</h1>
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 I built this site using Svelte and Bulma as frameworks. With
                 these, I was able to split the site into several tabs.
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 You'll find that <Link to="Projects">project tab</Link> useful if
                 you're interested in finding a general overlook of the Computer Graphics
                 projects I've worked on and am working on.
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 Another large part of my life revolves around music, so you can
                 go to <Link to="Music">that tab</Link> to check out the various music-related
                 projects I'm able to share.
             </div>
-            <div class="block has-text-justified is-size-7">
+            <div class="block has-text-justified is-size-6">
                 Finally, that last <Link to="CV">CV tab</Link> should take you to a link to download
                 a pdf of my most recent version of my CV.
             </div>
