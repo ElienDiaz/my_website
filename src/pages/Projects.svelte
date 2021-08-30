@@ -135,10 +135,4 @@
         font-family: "Fira Sans";
         color: #a8d1ce;
     }
-
-    li {
-        margin-left: 10px;
-        list-style-type: circle;
-        display: list-item;
-    }
 </style>

@@ -19,7 +19,7 @@
     <div class="block has-text-justified is-size-6">
         I've been performing for over half of my life and have many years of
         experience directing and participating in ensembles of all sizes,
-        ranging from Barbershop Quartets to full choirs.
+        ranging from barbershop quartets to full choirs.
     </div>
     <div class="block has-text-justified is-size-6">
         Keep scrolling to find some multitracks I can share from my soundcloud,
@@ -78,7 +78,7 @@
                 </div>
 
                 <div class="card-content has-text-left">
-                    This is a multitrack recording of me singing all the parts
+                    This is a multitrack recording of me singing all of the parts
                     to an arrangement of "Shenandoah" as arranged by Derric
                     Johnson. This was originally written for the Voices of
                     Liberty, an acapella group that sings at Walt Disney World's
