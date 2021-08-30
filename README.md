@@ -1,4 +1,6 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Welcome to my website! 
+
+This was made using the Svelte and Bulma frameworks for sites, as well as a lot of help from my friend Sam (find him at sam-mohr.com. He is a web developer and was especially helpful in debugging and understanding how to make this site).
 
 ---
 
