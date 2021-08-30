@@ -1,6 +1,6 @@
 <section class="section">
     <div class="block has-text-centered is-size-2">
-        <h1>Welcome to The Music Page!</h1>
+        <h1>Welcome to my Music Page!</h1>
     </div>
     <div class="block is-flex is-very-horizontal-center">
         <figure class="image">
@@ -120,8 +120,9 @@
     <div class="block has-text-justified is-size-6">
         As you may have noticed from my SoundCloud links, I do sometimes write
         music! Most of my arrangements have been for mixed groups, but I'm happy
-        to share what I've written if you <a href="mailto:eliericardo@hotmail.com">send me an email</a>! Arrangements I've
-        written include:
+        to share what I've written if you <a
+            href="mailto:eliericardo@hotmail.com">send me an email</a
+        >! Arrangements I've written include:
     </div>
 
     <ul>
@@ -132,39 +133,34 @@
             >
         </li>
         <li>
-            "Christmas is Starting Now!" from <i>Phineas and Ferb</i> (Co-Arranged with
-            my friend Sam)
+            "Christmas is Starting Now!" from <i>Phineas and Ferb</i> (Co-Arranged
+            with my friend Sam)
         </li>
         <li>
             "The Dream Medley" as performed by <a
                 href="https://youtu.be/Zr4CF8HGhL8">the GT Chamber Choir</a
             >
         </li>
-        <li>
-            "I'm Gonna Live 'Till I Die"
-        </li>
-        <li>
-            "Key Change Baby!" as sung in my SoundCloud 
-        </li>
+        <li>"I'm Gonna Live 'Till I Die"</li>
+        <li>"Key Change Baby!" as sung in my SoundCloud</li>
         <li>
             "The Phineas and Ferb Medley" as performed by <a
-            href="https://youtu.be/EYl7bHKHzHI">the GT Chamber Choir</a
-        >
+                href="https://youtu.be/EYl7bHKHzHI">the GT Chamber Choir</a
+            >
         </li>
         <li>
-            "Proud Corazon" from Disney-Pixar's <i>Coco</i>, as performed by <a
-            href="https://youtu.be/tKea4qm8r6o">the GT Chamber Choir</a
-        >
+            "Proud Corazon" from Disney-Pixar's <i>Coco</i>, as performed by
+            <a href="https://youtu.be/tKea4qm8r6o">the GT Chamber Choir</a>
         </li>
         <li>
-            "Speechless" from Disney's <i>Aladdin</i>, as performed by <a
-            href="https://soundcloud.com/elie-diaz-965006234/speechless">several of my friends</a
-        >
+            "Speechless" from Disney's <i>Aladdin</i>, as performed by
+            <a href="https://soundcloud.com/elie-diaz-965006234/speechless"
+                >several of my friends</a
+            >
         </li>
         <li>
-            "You Will Be Found" from <i>Dear Evan Hansen</i> as performed by <a
-            href="https://youtu.be/PFQp2yG1hzI">the GT Chamber Choir</a
-        >
+            "You Will Be Found" from <i>Dear Evan Hansen</i> as performed by
+            <a href="https://youtu.be/PFQp2yG1hzI">the GT Chamber Choir</a>
         </li>
     </ul>
 </section>
