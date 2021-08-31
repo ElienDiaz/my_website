@@ -1,7 +1,6 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { Link, link } from "svelte-routing";
-  import NavLink from "./NavLink.svelte";
+  import { link } from "svelte-spa-router";
+
   let menuOpen = false;
   //   import { resumeRoute, route } from "../route";
   //   import Link from "../components/Link.svelte";
@@ -23,11 +22,12 @@
 <nav class="navbar is-size-5">
   <div class="navbar-brand">
     <div class="navbar-item">
-      <Link
+      <a
+        href="/"
         class="navbar-item"
         style="color: #a8d1ce"
         on:click={turnOffOverlay}
-        to="/">Elie Diaz</Link
+        use:link>Elie Diaz</a
       >
     </div>
     <a
@@ -49,29 +49,33 @@
   >
     <div class="navbar-start" />
     <div class="navbar-end">
-      <Link
+      <a
+        href="/"
         class="navbar-item"
         style="color: #a8d1ce"
         on:click={turnOffOverlay}
-        to="Home">Home</Link
+        use:link>Home</a
       >
-      <Link
+      <a
+        href="#/Projects"
         class="navbar-item"
         style="color: #a8d1ce"
         on:click={turnOffOverlay}
-        to="Projects">Projects</Link
+        use:link>Projects</a
       >
-      <Link
+      <a
+        href="#/Music"
         class="navbar-item"
         style="color: #a8d1ce"
         on:click={turnOffOverlay}
-        to="Music">Music</Link
+        use:link>Music</a
       >
-      <Link
+      <a
+        href="#/CV"
         class="navbar-item"
         style="color: #a8d1ce"
         on:click={turnOffOverlay}
-        to="CV">CV</Link
+        use:link>CV</a
       >
       <!-- <NavLink to="/">Home</NavLink>
       <NavLink to="/">Projects</NavLink>

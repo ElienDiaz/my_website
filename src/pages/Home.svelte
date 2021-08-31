@@ -1,5 +1,5 @@
 <script>
-    import { Link } from "svelte-routing";
+    import { link } from "svelte-spa-router";
 </script>
 
 <section class="section">
@@ -61,17 +61,17 @@
                 these, I was able to split the site into several tabs.
             </div>
             <div class="block has-text-justified is-size-6">
-                You'll find that <Link to="Projects">project tab</Link> useful if
+                You'll find that <a href="#/Projects" use:link>project tab</a> useful if
                 you're interested in finding a general overlook of the Computer Graphics
                 projects I've worked on and am working on.
             </div>
             <div class="block has-text-justified is-size-6">
                 Another large part of my life revolves around music, so you can
-                go to <Link to="Music">that tab</Link> to check out the various music-related
+                go to <a href="#/Music" use:link>that tab</a> to check out the various music-related
                 projects I'm able to share.
             </div>
             <div class="block has-text-justified is-size-6">
-                Finally, that last <Link to="CV">CV tab</Link> should take you to a link to download
+                Finally, that last <a href="#/CV" use:link> CV tab</a> should take you to a link to download
                 a pdf of my most recent version of my CV.
             </div>
         </div>
