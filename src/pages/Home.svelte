@@ -29,8 +29,9 @@
             <div class="block has-text-justified is-size-6">
                 My first two degrees (BS and MS) were from Georgia Tech in
                 Computer Science, so I have been learning more about the field
-                for a few years now. As far as my projects are concerned, I have
-                done a decent amount of work in physics simulation.
+                for a few years now. Currently, my projects have specialized in
+                physics-based simulation, focusing on different frameworks and 
+                materials.
             </div>
             <div class="block has-text-justified is-size-6">
                 Go ahead and explore my site to learn more about me!

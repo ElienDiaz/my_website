@@ -12,7 +12,7 @@
         </figure>
     </div>
     <div class="block has-text-justified is-size-6">
-        Throughout my studies, I have ended up working on several projects
+        Throughout my studies, I have worked on several projects
         specializing in Computer Graphics and in Physics Simulations. Here are a
         few I can share.
     </div>
