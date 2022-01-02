@@ -17,7 +17,7 @@
     </div>
     <div class="block has-text-justified is-size-6">
         <a href="./Diaz_Elie_CV.pdf" target="_blank">This CV</a>
-        is updated as of January 2021.
+        is updated as of January 2022.
     </div>
 </section>
 
