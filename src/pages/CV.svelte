@@ -16,7 +16,7 @@
         in pdf format, in case you want a more complete list of my experience.
     </div>
     <div class="block has-text-justified is-size-6">
-        <a href="./Diaz_Elie_CV_2021.pdf" target="_blank">This CV</a>
+        <a href="./Diaz_Elie_CV.pdf" target="_blank">This CV</a>
         is updated as of January 2021.
     </div>
 </section>
